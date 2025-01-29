@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Minecraft Client",
+      "mainClass": "net.minecraft.client.main.Main",
+      "vmArgs": "--tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker",
+      "cwd": "${workspaceFolder}/run",
+      "args": [],
+      "projectName": "ForgeMod"
+    }
+  ]
+}
