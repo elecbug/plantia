@@ -9,7 +9,7 @@ displayName="Plantia"
 description="Plantia"
 authors="elecbug"
 
-[[dependencies.mymodid]]
+[[dependencies.plantia]]
 modId="forge"
 mandatory=true
 versionRange="40.3.3"
