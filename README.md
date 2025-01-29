@@ -1,2 +1,2 @@
-# Magi(c)raft
+# Plantia
 

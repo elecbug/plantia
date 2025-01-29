@@ -3,10 +3,10 @@ loaderVersion="40.3.3"
 license="MIT"
 
 [[mods]]
-modId="magicraft"
+modId="plantia"
 version="0.1.0"
-displayName="Magi(c)raft"
-description="Magi(c)raft, Many Magic"
+displayName="Plantia"
+description="Plantia"
 authors="elecbug"
 
 [[dependencies.mymodid]]
