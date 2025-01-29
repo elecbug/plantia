@@ -1,2 +1,1 @@
-./gradlew --refresh-dependencies
-./gradlew genVSCodeRuns
+./gradlew build
