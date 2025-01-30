@@ -1,0 +1,6 @@
+{
+    "parent": "plantia:block/magic_plant",
+    "textures": {
+        "crop": "plantia:block/magic_plant_stage3"
+    }
+}

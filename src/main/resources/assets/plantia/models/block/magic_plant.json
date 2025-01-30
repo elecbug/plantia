@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/crop",
+    "textures": {
+        "crop": "plantia:block/magic_plant_stage7"
+    },
+    "render_type": "translucent"
+}

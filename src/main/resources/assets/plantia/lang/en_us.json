@@ -1,3 +1,8 @@
 {
-    "item.plantia.test_item": "Plantia Test Item"
+    "itemGroup.plantia": "Plantia",
+
+    "item.plantia.magic_seed": "Magic Seed",
+    "item.plantia.magic_essence": "Magic Essence",
+
+    "block.plantia.magic_plant": "Magic Seed(Plant)"
 }
