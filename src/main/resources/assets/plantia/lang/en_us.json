@@ -3,6 +3,9 @@
 
     "item.plantia.magic_seed": "Magic Seed",
     "item.plantia.magic_essence": "Magic Essence",
+    "item.plantia.mana_shard": "Mana Shard",
 
+    "block.plantia.mana_ore": "Mana Ore",
+    
     "block.plantia.magic_plant": "Magic Seed(Plant)"
 }
