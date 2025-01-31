@@ -32,21 +32,31 @@
                     "type": "minecraft:item",
                     "name": "plantia:mana_shard",
                     "functions": [
-                    {
-                        "function": "minecraft:set_count",
-                        "count": {
-                        "min": 1,
-                        "max": 3
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
                         }
-                    }
                     ]
                 }
             ],
             "conditions": [
                 {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                    "tag": "minecraft:needs_iron_tool"
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "enchantments": [
+                                {
+                                    "enchantment": "minecraft:silk_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
                     }
                 }
             ]
