@@ -4,6 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("plantia")
 public class ModMain {
@@ -11,6 +13,12 @@ public class ModMain {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public ModMain() {
-        LOGGER.info("Hello, Minecraft! And Plantia!");
+        LOGGER.info("Initializing Plantia Mod");
+
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+    }
+
+    private void setup(final FMLCommonSetupEvent event) {
+        LOGGER.info("Setting up common configurations...");
     }
 }

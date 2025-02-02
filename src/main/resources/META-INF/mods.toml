@@ -4,12 +4,12 @@ license="MIT"
 
 [[mods]]
 modId="plantia"
-version="0.1.0"
+version="0.1.1"
 displayName="Plantia"
 description="Plantia"
 authors="elecbug"
 
-[[dependencies.mymodid]]
+[[dependencies.plantia]]
 modId="forge"
 mandatory=true
 versionRange="40.3.3"

@@ -1,0 +1,14 @@
+{
+    "itemGroup.plantia": "Plantia",
+
+    "item.plantia.magic_seed": "Magic Seed",
+    "item.plantia.magic_essence": "Magic Essence",
+    "item.plantia.mana_shard": "Mana Shard",
+
+    "block.plantia.mana_ore": "Mana Ore",
+    "block.plantia.mana_furnace": "Mana Furnace",
+    
+    "block.plantia.magic_plant": "Magic Seed(Plant)",
+
+    "container.mana_furnace": "Mana Furnace"
+}

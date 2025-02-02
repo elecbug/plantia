@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "plantia:block/mana_furnace",
+        "all": "plantia:block/mana_furnace"
+    }
+}

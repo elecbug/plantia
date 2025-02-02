@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "plantia:magic_seed",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "plantia:magic_seed",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                        { "condition": "minecraft:block_state_property", "block": "plantia:magic_plant", "properties": { "age": "4" } },
+                        { "condition": "minecraft:block_state_property", "block": "plantia:magic_plant", "properties": { "age": "5" } },
+                        { "condition": "minecraft:block_state_property", "block": "plantia:magic_plant", "properties": { "age": "6" } },
+                        { "condition": "minecraft:block_state_property", "block": "plantia:magic_plant", "properties": { "age": "7" } }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "plantia:magic_essence",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:block_state_property",
+                    "block": "plantia:magic_plant",
+                    "properties": { "age": "7" }
+                }
+            ]
+        }
+    ]
+}
