@@ -1,2 +1,2 @@
-./gradlew --refresh-dependencies
+./gradlew.bat --refresh-dependencies
 ./gradlew genVSCodeRuns

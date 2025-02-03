@@ -6,7 +6,7 @@ license="MIT"
 modId="plantia"
 version="0.1.1"
 displayName="Plantia"
-description="Plantia"
+description="Plantia, Add more hard-to-grow magical plants and in Minecraft"
 authors="elecbug"
 
 [[dependencies.plantia]]
